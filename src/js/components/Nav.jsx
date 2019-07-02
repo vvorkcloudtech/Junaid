@@ -1,22 +1,37 @@
 import React from "react";
-function Nav() {
-  return(
-    <div className="navbar">
-         <div className="navbar-brand"><a href="#">Logo</a></div>
-      <ul className="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#section1">gallery</a></li>
-          <li><a href="#about">about</a></li>
-          <li><a href="#">contact us</a></li>
-          <li className="btn" >jjjjjjjjjjjjjjjj</li>
 
-      </ul>
-      <div class="search">
-          <input type="search" placeholder="search"></input>
-      </div>
+const Nav =()=>{
 
-      <div className="btn btn-primary">junaid</div>
-    </div>
-  )
+    return(
+        <div className="mnav">
+            <nav className="navbar navbar-expand-lg navbar-light ">
+        <a className="navbar-brand ml-5 mt-3" href="#">  <img src="https://independentinvestors.co.uk/wp-content/uploads/2019/06/independent-investors-logo.png" alt=""/> </a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon" />
+        </button>
+        <div className="collapse navbar-collapse  mar" id="navbarNav">
+          <ul className="navbar-nav ul ">
+            <li className="nav-item active">
+              <a className="nav-link" href="#">ABOUT US <span className="sr-only">(current)</span></a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">TESTIMONIALS</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">WHAT WE OFFER</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">CONTACT US</a>
+            </li>
+            <li>
+                <button className="btn ml-5 btn-dark">+44 203 695 1157</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+        </div>
+    )
+
+
 }
 export default Nav;

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mnav .mar{
+    margin-left: 20%;
+   
+}
+#backimg{
+background-image: url("https://independentinvestors.co.uk/wp-content/uploads/2019/06/new-independent-investors-1.jpg");
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position-y: -200px;
+}
+#psize{
+    font-size: 12px;
+}
+#optsize{
+    font-size: 1px;
+}

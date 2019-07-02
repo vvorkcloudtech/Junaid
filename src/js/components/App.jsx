@@ -1,13 +1,17 @@
-import React from "react";
-// import Header from "./Header";
-import Nav from "./Nav";
+import React, { Component } from "react";
+import Nav from "./Nav"
+import Header from "./Header"
+class App extends Component {
+  
+ 
+  render() {
+    return (
+      <div>
+        <Nav />
+        <Header />
 
-function App() {
-  return (
-    <div>
-      <Nav />
-      {/* <Header /> */}
-    </div>
-  );
+      </div>
+    );
+  }
 }
 export default App;
