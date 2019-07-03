@@ -2,7 +2,7 @@ import React from "react";
 
 const Header =()=>{
     return(
-        <div className="section mt-5 " id="backimg">
+        <div className="section mt-4 " id="backimg">
           <div className="bagimg container " >
               <div className="container ">
         <div className="row">
@@ -11,7 +11,7 @@ const Header =()=>{
            
            <h1 className="display-4" >Enjoy Up To <span className="font-weight-bold"> 35%</span> <br/> Yearly Returns</h1>
            <br/>
-           <ul>
+           <ul className="">
                <li> <span className="font-weight-bold"> Custom Portfolios: </span>Flexible Investment Solutions </li>
                <li><span className="font-weight-bold"> Fully Managed: </span>Personalized Services Available 24x7</li>
                <li><span className="font-weight-bold"> Secure Returns: </span>Safe, Secure & Consistent Interest Returns</li>
@@ -69,32 +69,20 @@ const Header =()=>{
       </div>
         </div>
 
-        <button className="btn btn-primary btn-lg btn-block">CONTACT US</button>
+        <button id="btcol" className="btn btn-primary btn-lg btn-block">CONTACT US</button>
       </form>
            
           </div>
+
+
+
+          
         </div>
       </div>
  </div>
  <br/>
-              <div className="mt-5"> 
-              <div className="container mt-5">
-        <div className="row">
-          <div className="col-sm">
-           <h1>35</h1>
-          </div>
-          <div className="col-sm">
-            One of three columns
-          </div>
-          <div className="col-sm">
-            One of three columns
-          </div>
-          <div className="col-sm">
-            One of three columns
-          </div>
-        </div>
-      </div>
-              </div>
+
+            
          
         </div>
     )

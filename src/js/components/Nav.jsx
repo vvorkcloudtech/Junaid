@@ -24,7 +24,8 @@ const Nav =()=>{
               <a className="nav-link" href="#">CONTACT US</a>
             </li>
             <li>
-                <button className="btn ml-5 btn-dark">+44 203 695 1157</button>
+                <button className="btn ml-5 btn-dark">
+                 <i className="fa fa-phone rot"></i> +44 203 695 1157</button>
             </li>
           </ul>
         </div>

@@ -9,7 +9,7 @@
 }
 #backimg{
 background-image: url("https://independentinvestors.co.uk/wp-content/uploads/2019/06/new-independent-investors-1.jpg");
-height: 100vh;
+height: auto;
 background-size: cover;
 background-repeat: no-repeat;
 background-position-y: -200px;
@@ -19,4 +19,25 @@ background-position-y: -200px;
 }
 #optsize{
     font-size: 1px;
+}
+#csize{
+    font-size: 16px;
+}
+#hcol{
+    color: #115098;
+}
+.sty{
+    background: #022752;
+    color: white;
+    width: 100%;
+}
+.bdf{
+    background-color: #dcdcdc;
+}
+.padding{
+    padding-left: 200px;
+    font-size: 17px;
+}
+#btcol{
+    background-color: #0A815C;
 }
